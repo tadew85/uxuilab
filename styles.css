@@ -1,0 +1,160 @@
+body {
+    margin: 10px;
+    padding: 10px;
+}
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    font-family: sans-serif;
+    text-align: center;
+}
+.title {
+    font-family:'Poller One', cursive;
+    color: rgb(80, 37, 6);
+    font-size: 32px;
+    display: flex;
+    text-shadow: 2px 2px black;
+    justify-content: center;
+    align-items: center;
+}
+span {
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+img {
+    width: 150%;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+h2 {
+    display: flex;
+    justify-content: center;
+    font-family: 'Fascinate', cursive;
+}
+#special {
+    width: 100%;
+}
+#street {
+    width: 100%;
+}
+a {
+    margin: 5px;
+    height: 10px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+    border: none;
+    background-color: rgb(15, 141, 141);
+    color: #fff;
+}
+.social {
+    width: 15%;
+    color: white;
+    text-shadow: 1px 1px black;
+    font-family:  'Kanit', sans-serif;
+}
+#fb {
+    background-color: rgb(40, 30, 190);
+}
+#twit {
+    background-color: rgb(51, 176, 214);
+}
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+@media only screen and (min-width: 768px) {
+    body {
+        margin: 10px;
+        padding: 10px;
+    }
+    .title {
+        font-family:'Poller One', cursive;
+        color: darkblue;
+        font-size: 44px;
+        text-shadow: 3px 3px black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    img {
+        width: 150px;
+    }
+    nav {
+        display: flex;
+        justify-content: space-evenly;
+        background-color: rgb(159, 180, 180);
+        border-radius: 30px;
+    }
+    ul {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        list-style: none;
+        justify-content: center;
+    }
+    span {
+        color: darkblue;
+        font-size: 18px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    h2 {
+        font-size: 40px;
+        display: flex;
+        justify-content: center;
+        font-family: 'Fascinate', cursive;
+    }
+    #special {
+        width: 100%;
+    }
+    #street {
+        width: 100%;
+    }
+    a {
+        width: 200;
+        margin: 10px;
+        height: 10px;
+        text-decoration: none;
+        font-size: 22px;
+        padding: 10px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 4px;
+        background-color: darkred;
+        color: rgb(255, 230, 230);
+    }
+    a:hover {
+        color: darkgrey;
+    }
+    .social {
+        width: 15%;
+        color: white;
+        text-shadow: 1px 1px black;
+        font-family:  'Kanit', sans-serif;
+        border-radius: 25px;
+    }
+    .gift {
+        display: flex;
+        justify-content: center; 
+    }
+    #fb {
+        background-color: rgb(40, 30, 190);
+    }
+    #twit {
+        background-color: rgb(51, 176, 214);
+    }
